@@ -7,15 +7,26 @@
 
 **Table of Contents**
 
-- [Installation](#installation)
-- [License](#license)
+- [docu2readme](#docu2readme)
+  - [Installation](#installation)
+  - [License](#license)
+  - [Usage](#usage)
 
 ## Installation
 
 ```console
-pip install docu2readme
+pip install docstring2md
 ```
 
 ## License
 
 `docu2readme` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+## Usage
+
+Commandline tool 
+
+```
+docstring2md <python-script> [<file>]
+```
+

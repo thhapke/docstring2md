@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "docu2readme"
+name = "docstring2md"
 dynamic = ["version"]
-description = ''
+description = 'Extracts docstrings from Python files and converts them to Markdown.'
 readme = "README.md"
 requires-python = ">=3.7"
 license = "MIT"
@@ -27,12 +27,15 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/unknown/docu2readme#readme"
-Issues = "https://github.com/unknown/docu2readme/issues"
-Source = "https://github.com/unknown/docu2readme"
+Documentation = "https://github.com/thhapke/docstring2md#readme"
+Issues = "https://github.com/thhapke/docstring2md/issues"
+Source = "https://github.com/thhapke/docstring2md"
+
+[project.scripts]
+docstring2md = "docstring2md.docstring2md:main"
 
 [tool.hatch.version]
-path = "src/docu2readme/__about__.py"
+path = "src/docstring2md/__about__.py"
 
 [tool.hatch.envs.default]
 dependencies = [
