@@ -1,0 +1,1 @@
+"## Functions Documentation\n\n### `set_color_scheme`\n\nSet the color scheme for printing. Options are: 'truecolor', '256colors', 'basic', 'mono'.\n**Args:**\n"
